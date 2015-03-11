@@ -1,1 +1,1 @@
-# MobileMidwife-Master
+# MobileMidwife, an app for my design thesis

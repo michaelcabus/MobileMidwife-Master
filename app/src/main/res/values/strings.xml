@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile The Midwife</string>
+    <string name="RegisterTitle">Register</string>
+    <string name="RegisterAs">Register As</string>
+    <string name="LoginButton">Login</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_activty">LoginActivty</string>
+    <string name="username">username_hint</string>
+    <string name="enter_pasword">enter your password</string>
+    <string name="usernameField">enter your username</string>
+    <string name="midwife">Midwife</string>
+    <string name="patient">Patient</string>
+    <string name="findmidwife">Find a Midwife</string>
+    <string name="recommend">Recommend</string>
+    <string name="wheremidwife">Find a Midwife Where?</string>
+    <string name="title_activity_find_midwife">FindMidwifeActivity</string>
+    <string name="title_activity_patient_register">PatientRegisterActivity</string>
+
+</resources>

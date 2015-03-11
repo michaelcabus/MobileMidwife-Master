@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                style="@style/secondaryBackground"
+                tools:context="android.bignerdranch.com.mobilemidwife.RegisterActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="95dp"
+        android:text="@string/RegisterAs"
+        android:id="@+id/registerAs"
+        android:layout_below="@id/login"
+
+
+        style="@style/headingorange"/>
+
+
+
+<Button
+    android:id="@+id/midwifereg"
+    android:text="@string/midwife"
+    android:capitalize="none"
+    android:layout_below="@+id/registerAs"
+    android:layout_marginTop="54dp"
+    style="@style/standardorangebutton"/>
+
+
+
+    />
+
+<Button
+ style="@style/standardorangebutton"
+ android:layout_below="@+id/midwifereg"
+ android:text="@string/patient"
+ android:layout_marginTop="20dp"
+
+    />
+
+</RelativeLayout>
