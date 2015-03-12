@@ -7,7 +7,9 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 style="@style/secondaryBackground"
-                tools:context="android.bignerdranch.com.mobilemidwife.RegisterActivity">
+                tools:context="android.bignerdranch.com.mobilemidwife.MidwifeRegisterActivity">
+
+
 
 
 
@@ -22,7 +24,7 @@
 
 
     <LinearLayout
-        android:id="@+id/createusername"
+        android:id="@+id/practicename"
         android:layout_below="@+id/createaccount"
         android:layout_marginTop="24dp"
         style="@style/inputbackground">
@@ -34,16 +36,16 @@
             android:ems="10"
             android:textSize="20sp"
             android:textColorHint="#1C7995"
-            android:id="@+id/createusernamefield"
-            android:hint="@string/createusername"
+            android:id="@+id/enterpracticename"
+            android:hint="@string/practicename"
 
             />
 
- </LinearLayout>
+    </LinearLayout>
 
-       <LinearLayout
-        android:id="@+id/createpassword"
-        android:layout_below="@+id/createusername"
+    <LinearLayout
+        android:id="@+id/primarycontactname"
+        android:layout_below="@+id/practicename"
         android:layout_marginTop="24dp"
         style="@style/inputbackground">
 
@@ -55,9 +57,9 @@
             android:ems="10"
             android:textSize="20sp"
             android:textColorHint="#1C7995"
-            android:id="@+id/createpasswordfield"
-            android:layout_below="@+id/createusernamefield"
-            android:hint="@string/createpassword"
+            android:id="@+id/primarycontactnameField"
+
+            android:hint="@string/primarycontact"
 
             />
 
@@ -66,8 +68,8 @@
 
 
     <LinearLayout
-        android:id="@+id/createEmail"
-        android:layout_below="@+id/createpassword"
+        android:id="@+id/createPracticeEmail"
+        android:layout_below="@+id/primarycontactname"
         android:layout_marginTop="24dp"
         style="@style/inputbackground">
 
@@ -79,9 +81,9 @@
             android:ems="10"
             android:textSize="20sp"
             android:textColorHint="#1C7995"
-            android:id="@+id/createEmailfield"
+            android:id="@+id/createPracticeEmailEmailfield"
             android:layout_below="@+id/createpasswordfield"
-            android:hint="@string/createEmail"
+            android:hint="@string/createPracticeEmail"
 
             />
 
@@ -90,17 +92,38 @@
 
 
 
+    <LinearLayout
+        android:id="@+id/createPracticePassword"
+        android:layout_below="@+id/createPracticeEmail"
+        android:layout_marginTop="24dp"
+        style="@style/inputbackground">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textSize="20sp"
+            android:textColorHint="#1C7995"
+            android:id="@+id/createmidwifepasswordfield"
+            android:layout_below="@+id/createusernamefield"
+            android:hint="@string/createpassword"
+
+            />
+
+
+    </LinearLayout>
 
     <Button
         android:text="@string/create"
-        android:id="@+id/create"
-        android:layout_below="@id/createEmail"
+        android:id="@+id/createmidwife"
+        android:layout_below="@id/createPracticePassword"
         style="@style/roundorangebutton"/>
 
 
 
 
 </RelativeLayout>
-
 
 

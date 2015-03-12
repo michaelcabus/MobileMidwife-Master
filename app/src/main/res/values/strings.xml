@@ -17,7 +17,26 @@
     <string name="findmidwife">Find a Midwife</string>
     <string name="recommend">Recommend</string>
     <string name="wheremidwife">Find a Midwife Where?</string>
+    <string name="aspatient">Register as Patient</string>
+    <string name="createaccount">Create Account</string>
+    <string name="create">Create</string>
+    <string name="createusername">Enter Your Name</string>
+    <string name="createEmail">Email Address</string>
+    <string name="createPracticeEmail">Practice Email</string>
+    <string name="sign_up_error_message">Email Address</string>
     <string name="title_activity_find_midwife">FindMidwifeActivity</string>
-    <string name="title_activity_patient_register">PatientRegisterActivity</string>
+    <string name="title_activity_patient_register">Patient Registration</string>
+    <string name="practicename">Practice Name</string>
+    <string name="createpassword">Password</string>
+    <string name="primarycontact">Primary Contact Name</string>
+
+    <string name="title_activity_midwife_register">Midwife Registration</string>
+
+    <string name="login_error_title">Account Creation Incomplete</string>
+    <string name="login_error">Please Make Sure You Enter Username and Password</string>
+
+    <string name="signup_error_title">Account Creation Incomplete</string>
+    <string name="signup_error_message">Please Make Sure You Enter Username, Password and Email Adress</string>
+
 
 </resources>
